@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Opsblock — Modular Business Services",
+      "hasCanvas": false,
+      "bodyTextLen": 5886,
+      "bodyTextHash": "6ca72bcfe4690021e45aa009c917fef57917c5051bb762e3c51b816afd89025f",
+      "bodyTextPrefix": "Skip to the menu OPSBLOCK MODULAR SERVICES Menu Approach Next la",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Opsblock — Modular Business Services",
+      "hasCanvas": false,
+      "bodyTextLen": 5823,
+      "bodyTextHash": "3865d7d54ace710e8e5ce8ad091604cbc5edaad72cb946155d8c84bca4b7cb34",
+      "bodyTextPrefix": "Skip to the menu OPSBLOCK MODULAR BUSINESS SERVICES Pick the exa",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

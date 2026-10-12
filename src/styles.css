@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #09090b;
+  --color-raised: #101012;
+  --color-surface: #161618;
+  --color-fg: #ece8e1;
+  --color-muted: #9c978e;
+  --color-faint: #6e6a64;
+  --color-accent: #e23b2c;
+  --color-accent-fg: #1a0907;
+  --color-border: #2a2a2e;
+  --color-border-strong: #3e3e44;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Big Shoulders Display", "Arial Narrow", sans-serif;
+  --shadow-ember: 0 22px 44px -24px color-mix(in oklab, #e23b2c 80%, transparent);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-fg);
+  }
+
+  ::placeholder {
+    color: var(--color-faint);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
