@@ -6,6 +6,7 @@ const LINKS = [
   { href: "#menu", label: "Menu" },
   { href: "#approach", label: "Approach" },
   { href: "#next", label: "Next layer" },
+  { href: "/tetris", label: "Tetris" },
   { href: "#engage", label: "Engage" },
 ];
 
@@ -100,6 +101,9 @@ export function SiteFooter() {
             </a>
             <a href="#next" className="text-muted hover:text-fg">
               Next layer
+            </a>
+            <a href="/tetris" className="text-muted hover:text-fg">
+              Tetris
             </a>
             <a href="#engage" className="text-muted hover:text-fg">
               Engage
